@@ -6,4 +6,5 @@ I was inspired by @raulbehl challenge to code a module everyday and progressivel
 - day3 - [edge Detector](https://github.com/gagana-05/100DaysOfRTL/tree/main/day3)
 - day4 - [8-bit alu](https://github.com/gagana-05/100DaysOfRTL/tree/main/day4)
 - day5 - [8-bit odd counter](https://github.com/gagana-05/100DaysOfRTL/tree/main/day5)
-- day6 - [ 4-bit shift Register](https://github.com/gagana-05/100DaysOfRTL/tree/main/day6)
+- day6 - [4-bit shift Register](https://github.com/gagana-05/100DaysOfRTL/tree/main/day6)
+- day7 - [4-bit Linear Feedback Shift Register](https://github.com/gagana-05/100DaysOfRTL/tree/main/day7)
