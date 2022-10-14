@@ -1,5 +1,5 @@
 # 100DaysOfRTL
-I was inspired by @raulbehl challenge to code a module everyday and progressively improve on coding skills. So I want to give it a try 
+I was inspired by @raulbehl challenge to code a module everyday and progressively improve on coding skills. So here I am giving it a shot!!
 
 - day1 - [mux](https://github.com/gagana-05/100DaysOfRTL/tree/main/day1)
 - day2 - [d flip flop](https://github.com/gagana-05/100DaysOfRTL/tree/main/day2)
