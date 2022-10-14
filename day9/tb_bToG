@@ -1,0 +1,18 @@
+module tb_btoG;
+
+parameter N = 4;
+integer i;
+reg [N-1:0] in;
+wire [N-1:0] out;
+
+binToGray UUT(.in(in), .out(out));
+
+initial begin
+    for(i=0;i<15;i=i+1) begin
+        in = i;
+        #10;
+    end
+    $finish;
+end
+
+endmodule
