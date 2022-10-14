@@ -11,3 +11,4 @@ I was inspired by @raulbehl challenge to code a module everyday and progressivel
 - day8 - [binary to One Hot encoder](https://github.com/gagana-05/100DaysOfRTL/tree/main/day8)
 - day9 - [4-bit binary to Gray converter](https://github.com/gagana-05/100DaysOfRTL/tree/main/day9)
 - day10 - [Count which supports loading value](https://github.com/gagana-05/100DaysOfRTL/tree/main/day10)
+- day11 - [Sequence Detector](https://github.com/gagana-05/100DaysOfRTL/tree/main/day11)
