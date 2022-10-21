@@ -5,7 +5,6 @@
 
 // Specification:
 // 4 input requests and output a signal to grant in the form of ONEHOT
-// Request order 3>2>1>0
 
 module fixedPriorityArbiter  #(parameter N = 4)(request, grant);
 
