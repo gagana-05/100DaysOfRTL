@@ -12,3 +12,7 @@ I was inspired by @raulbehl challenge to code a module everyday and progressivel
 - day9 - [4-bit binary to Gray converter](https://github.com/gagana-05/100DaysOfRTL/tree/main/day9)
 - day10 - [Count which supports loading value](https://github.com/gagana-05/100DaysOfRTL/tree/main/day10)
 - day11 - [Sequence Detector](https://github.com/gagana-05/100DaysOfRTL/tree/main/day11)
+- day12 - [4-bit parallel to serial converter](https://github.com/gagana-05/100DaysOfRTL/tree/main/day12)
+- day13 - [Mux in all ways possible](https://github.com/gagana-05/100DaysOfRTL/tree/main/day13)
+- day14 - [Arbiter](https://github.com/gagana-05/100DaysOfRTL/tree/main/day14)
+- day15 - 
