@@ -7,22 +7,16 @@
 // 4 input requests and output a signal to grant in the form of ONEHOT
 // Request order 3>2>1>0
 
+module fixedPriorityArbiter  #(parameter N = 4)(request, grant);
 
-module fixedPriorityArbiter#(parameter N = 4)(clk, reset, request, grant);
-
-input clk, reset;
 input [N-1:0] request;
-output reg [N-1:0] grant;
-genvar i;
-// considering port[3] as the highest priority
-assign grant[3] = request[3];
+output [N-1:0] grant;
+  // Port[0] has highest priority
+  assign grant[0] = request[0];
 
-always @(posedge clk or negedge reset)
-begin
-    for(i=0; i<N; i=i+1) begin
-        grant[i] = request[i] & ~(!grant[i-1:0]);
- end
-end
+  genvar i;
+  for (i=1; i<N; i=i+1) begin
+    assign grant[i] = request[i] & ~(|grant[i-1:0]);
+  end
 
 endmodule
-
